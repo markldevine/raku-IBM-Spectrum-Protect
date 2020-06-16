@@ -1,0 +1,18 @@
+{
+  "auth": "github:markldevine",
+  "authors": [ "Mark Devine <mark@markdevine.com>" ],
+  "depends": [],
+  "description": "IBM::Spectrum::Protect - Root of IBM Spectrum Protect Raku Implementation",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "IBM::Spectrum::Protect",
+  "perl": "6.d",
+  "provides": {
+    "IBM::Spectrum::Protect::Admin::Client": "lib/IBM/Spectrum/Protect/Admin/Client.rakumod"
+    "IBM::Spectrum::Protect::DB::TSMDB1": "lib/IBM/Spectrum/Protect/DB/TSMDB1.rakumod"
+  },
+  "resources": [],
+  "source-url": "https://github.com/markldevine/raku-IBM-Spectrum-Protect.git",
+  "tags": [ "Async" ],
+  "version": "0.1.1"
+}
